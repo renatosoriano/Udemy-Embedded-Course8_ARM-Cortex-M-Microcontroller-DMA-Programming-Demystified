@@ -1,0 +1,6 @@
+../Core/Src/main.c:71:5:main	24	static
+../Core/Src/main.c:131:6:SystemClock_Config	88	static
+../Core/Src/main.c:179:13:MX_DMA_Init	16	static
+../Core/Src/main.c:216:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:258:6:my_Dma_TC_cb	16	static
+../Core/Src/main.c:269:6:Error_Handler	4	static,ignoring_inline_asm

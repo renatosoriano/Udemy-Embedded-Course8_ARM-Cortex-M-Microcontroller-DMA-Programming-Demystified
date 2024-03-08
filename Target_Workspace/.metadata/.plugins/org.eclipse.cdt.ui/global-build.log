@@ -1,0 +1,25 @@
+16:26:37 **** Incremental Build of configuration Debug for project M2P_UART2_SCRATCH ****
+make -j9 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'dma1_init':
+../Src/main.c:179:22: warning: variable 'pDMA' set but not used [-Wunused-but-set-variable]
+  179 |         DMA_TypeDef *pDMA;
+      |                      ^~~~
+arm-none-eabi-gcc -o "M2P_UART2_SCRATCH.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course8_Workspace/Target_Workspace/M2P_UART2_SCRATCH/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="M2P_UART2_SCRATCH.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: M2P_UART2_SCRATCH.elf
+ 
+arm-none-eabi-size  M2P_UART2_SCRATCH.elf 
+arm-none-eabi-objdump -h -S M2P_UART2_SCRATCH.elf  > "M2P_UART2_SCRATCH.list"
+   text	   data	    bss	    dec	    hex	filename
+   1808	     24	   1568	   3400	    d48	M2P_UART2_SCRATCH.elf
+Finished building: default.size.stdout
+ 
+Finished building: M2P_UART2_SCRATCH.list
+ 
+16:26:44 **** Incremental Build of configuration Debug for project M2P_UART2_SCRATCH ****
+make -j9 all 
+arm-none-eabi-size  M2P_UART2_SCRATCH.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1808	     24	   1568	   3400	    d48	M2P_UART2_SCRATCH.elf
+Finished building: default.size.stdout
+ 
