@@ -9,6 +9,8 @@ Date: March, 2024.
 
 - The [**Certificate**](https://github.com/renatosoriano/Udemy-Embedded-Course8_ARM-Cortex-M-Microcontroller-DMA-Programming-Demystified/blob/main/Certificate.pdf) is available. 
 
+- The [**Coding Exercises**](https://github.com/renatosoriano/Udemy-Embedded-Course8_ARM-Cortex-M-Microcontroller-DMA-Programming-Demystified/tree/main/Target_Workspace) are available. 
+
 ## Descriptions
 
 The course aims to demystify the Microcontroller DMA controller internals and its programming with various peripherals. It is discussed why DMA is required and how it benefits ARM to offload data transfer work with exercises. We learn different types of DMA transfers like M2M, P2M, and M2P (M: Memory P: Peripheral) and various DMA configurations.
